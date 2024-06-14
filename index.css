@@ -70,6 +70,13 @@ nav {
   gap: 2rem;
 }
 
+.nav__links:hover{
+  color: aqua;
+  border-radius: 5px;
+  height: auto;
+  width: auto;
+}
+
 .link a {
   font-weight: 500;
   color: var(--text-light);
@@ -252,6 +259,7 @@ nav {
 }
 .client__card:hover{
   transform: translate(-5px);
+  background-color: #b2c9c9;
 }
 
 
